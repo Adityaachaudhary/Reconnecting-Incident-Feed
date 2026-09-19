@@ -1,0 +1,15 @@
+name = "reconnecting-incident-feed"
+main = "src/index.ts"
+compatibility_date = "2024-09-25"
+
+[[durable_objects.bindings]]
+name = "INCIDENT_ROOM"
+class_name = "IncidentRoom"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["IncidentRoom"]
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
