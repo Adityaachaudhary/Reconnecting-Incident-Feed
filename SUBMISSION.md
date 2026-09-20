@@ -3,10 +3,10 @@
 ## Candidate
 
 - **Name:** Aditya Chaudhary
-- **Email:** <email>
+- **Email:** <adityaprakash.280102@gmail.com>
 - **GitHub:** https://github.com/Adityaachaudhary
 - **Selected problem:** Reconnecting Incident Feed
-- **Demo video:** <link>
+- **Demo video:** <https://www.loom.com/share/c9ce5abe3d334392b0b096f7c65425b3>
 
 ---
 
@@ -192,7 +192,7 @@ Updates are stored as `msg::0000000001`, `msg::0000000002`, etc. This makes the 
 
 ## AI usage
 
-Amazon Q Developer (in-IDE) was used throughout:
+Claude was used throughout:
 
 - Scaffolding the initial file structure and wiring (`src/index.ts`, `src/room.ts`, `public/app.js`).
 - Suggesting the zero-padded storage key approach for lexicographic/numeric ordering alignment.
